@@ -1,9 +1,13 @@
 
 package javaapplication1;
+class B {
+    private int a=10;
+   public void print(){
+       System.out.println("parent class");
+    }
+}
 
 public class JavaApplication1 extends B {
-    
-    private int B=20;
     public void print1(){
         System.out.println("child class");
     }
@@ -12,12 +16,6 @@ public class JavaApplication1 extends B {
         javaapplication1.print();
    
    }
-}
-class B {
-    private int a=10;
-   public void print(){
-       System.out.println("parent class");
-    }
 }
 
    
