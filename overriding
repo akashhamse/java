@@ -1,0 +1,21 @@
+
+package javaapplication1;
+
+public class JavaApplication1 extends B {
+    
+    private int B=20;
+    public void print(){
+        System.out.println("child class");
+    }
+    public static void main(String args[]){
+        B b= new JavaApplication1();
+        b.print(); 
+   
+   }
+}
+class B {
+    private int a=10;
+   public void print(){
+       System.out.println("parent class");
+    }
+}
