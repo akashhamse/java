@@ -33,8 +33,8 @@ public class A{
 		a.setx(100);
 		a.sety(100);
 		a.setz(100);
-		System.out.println("sum of x,y,z: " + a.add(a.getx(),a.gety(),a.getz()));
-		System.out.println("sum of x,y: " + a.add(a.getx(),a.gety()));
+		System.out.println("sum of x,y,z: " + a.add(a.getx(),a.gety(),a.getz()));/*sum of x,y,z: 300*/
+		System.out.println("sum of x,y: " + a.add(a.getx(),a.gety()));/*sum of x,y: 200*/
 		
 	}
 }
