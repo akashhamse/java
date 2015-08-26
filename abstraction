@@ -1,0 +1,24 @@
+abstract class B{
+	private int p;
+	public void setP(int p){
+		this.p=p;
+	}
+	public int getP(){
+		return p;
+	}
+	public abstract void printP();
+}
+	
+	
+
+class A extends B{
+	public void printP(){
+		System.out.println(this.getP());
+	}
+	
+	public static void main(String args[]){
+		A a=new A();
+		a.setP(1000);
+		a.printP(); /*1000*/
+	}
+}
