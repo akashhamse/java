@@ -1,0 +1,40 @@
+public class A{
+	private int x;
+	private int y;
+	private int z;
+	public void setx(int x){
+		this.x=x;
+	}
+	public void sety(int y){
+		this.y=y;
+	}
+	public void setz(int z){
+		this.z=z;
+	}
+	public int getz(){
+		return z;
+	}
+	public int gety(){
+		return y;
+	}
+	public int getx(){
+		return x;
+	}
+	
+	int add(int p,int q,int r){
+		return p+q+r;
+	}
+	int add(int p,int q){
+		return p+q;
+	}
+	
+	public static void main(String args[]){
+		A a=new A();
+		a.setx(100);
+		a.sety(100);
+		a.setz(100);
+		System.out.println("sum of x,y,z: " + a.add(a.getx(),a.gety(),a.getz()));
+		System.out.println("sum of x,y: " + a.add(a.getx(),a.gety()));
+		
+	}
+}
