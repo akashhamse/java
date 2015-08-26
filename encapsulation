@@ -34,3 +34,10 @@ class Data extends Employee{
 	}
 }
 	
+	
+/*	
+details of an employee
+name : akash hamse e
+salary : 100.2
+manager : false
+*/
