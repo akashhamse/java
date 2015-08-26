@@ -1,1 +1,36 @@
-dfsdf
+class Employee{
+	private String name;
+	private double salary;
+	private Boolean isManager;
+
+	public void setName(String name){
+		this.name=name;
+	}
+	public void setSalary(double salary){
+		this.salary=salary;
+	}
+	public void setIsManager(Boolean isManager){
+		this.isManager=isManager;
+	}
+	public String getName(){
+		return this.name;
+	}
+	public double getSalary(){
+		return this.salary;
+	}
+	public Boolean getIsManager(){
+		return this.isManager;
+	}
+}
+
+class Data extends Employee{
+	public static void main(String args[]){
+		Employee employee= new Employee();
+		employee.setName("akash hamse e");
+		employee.setSalary(100.2);
+		employee.setIsManager(false);
+		System.out.println("details of an employee");
+		System.out.println("name : " + employee.getName() + "\nsalary : " + employee.getSalary() + "\nmanager : " + employee.getIsManager());
+	}
+}
+	
