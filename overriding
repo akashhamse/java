@@ -9,7 +9,9 @@ public class JavaApplication1 extends B {
     }
     public static void main(String args[]){
         B b= new JavaApplication1();
-        b.print(); 
+        B b1=new B();
+        b.print(); /*child class*/
+        b1.print(); /*parent class*/
    
    }
 }
